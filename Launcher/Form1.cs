@@ -305,6 +305,11 @@ namespace Launcher
             System.Diagnostics.Process.Start("fivem://connect/86.105.212.151:30121");
         }
 
+        private void VoteButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://gta.top-serveurs.net/vote/reward-of-city-and-departements/");
+        }
+
         private void InformationsButton_Click(object sender, EventArgs e)
         {
             WelcomeActiveTab.Visible = false;
@@ -326,5 +331,7 @@ namespace Launcher
             HomePanel.Visible = false;
             SettingsPanel.Visible = false;
         }
+
+        
     }
 }

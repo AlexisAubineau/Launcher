@@ -40,6 +40,7 @@
             this.ServerButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.WelcomeButon = new Bunifu.Framework.UI.BunifuFlatButton();
             this.HomePanel = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.WelcomePanel = new System.Windows.Forms.Panel();
             this.ReglementPanel5 = new System.Windows.Forms.Panel();
@@ -123,20 +124,19 @@
             this.DiscodTitleLabel = new System.Windows.Forms.Label();
             this.CopyrightLabel = new System.Windows.Forms.Label();
             this.ServerPanel = new System.Windows.Forms.Panel();
-            this.RepairButton = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.UninstallButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.TitleGameLabel = new System.Windows.Forms.Label();
-            this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.UpdateButton = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.VoteButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.bunifuProgressBar1 = new Bunifu.Framework.UI.BunifuProgressBar();
+            this.ProgressBar = new Bunifu.Framework.UI.BunifuProgressBar();
             this.PlayButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.FooterPanelServer = new System.Windows.Forms.Panel();
             this.InformationsPanel = new System.Windows.Forms.Panel();
             this.FooterPanel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.MenuPanel.SuspendLayout();
             this.HomePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -356,6 +356,17 @@
             this.HomePanel.Name = "HomePanel";
             this.HomePanel.Size = new System.Drawing.Size(1001, 549);
             this.HomePanel.TabIndex = 8;
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(137, 26);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(754, 31);
+            this.bunifuCustomLabel1.TabIndex = 1;
+            this.bunifuCustomLabel1.Text = "Bienvenue sur le serveur Reward of City and Department";
             // 
             // pictureBox7
             // 
@@ -1725,13 +1736,13 @@
             // 
             // ServerPanel
             // 
-            this.ServerPanel.Controls.Add(this.RepairButton);
+            this.ServerPanel.Controls.Add(this.VoteButton);
+            this.ServerPanel.Controls.Add(this.UninstallButton);
             this.ServerPanel.Controls.Add(this.pictureBox6);
             this.ServerPanel.Controls.Add(this.TitleGameLabel);
-            this.ServerPanel.Controls.Add(this.bunifuFlatButton3);
-            this.ServerPanel.Controls.Add(this.bunifuFlatButton2);
+            this.ServerPanel.Controls.Add(this.UpdateButton);
             this.ServerPanel.Controls.Add(this.pictureBox5);
-            this.ServerPanel.Controls.Add(this.bunifuProgressBar1);
+            this.ServerPanel.Controls.Add(this.ProgressBar);
             this.ServerPanel.Controls.Add(this.PlayButton);
             this.ServerPanel.Controls.Add(this.pictureBox4);
             this.ServerPanel.Controls.Add(this.FooterPanelServer);
@@ -1741,40 +1752,40 @@
             this.ServerPanel.TabIndex = 0;
             this.ServerPanel.Visible = false;
             // 
-            // RepairButton
+            // UninstallButton
             // 
-            this.RepairButton.Active = false;
-            this.RepairButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
-            this.RepairButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
-            this.RepairButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.RepairButton.BorderRadius = 0;
-            this.RepairButton.ButtonText = "Réinstaller";
-            this.RepairButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RepairButton.DisabledColor = System.Drawing.Color.Gray;
-            this.RepairButton.Iconcolor = System.Drawing.Color.Transparent;
-            this.RepairButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("RepairButton.Iconimage")));
-            this.RepairButton.Iconimage_right = null;
-            this.RepairButton.Iconimage_right_Selected = null;
-            this.RepairButton.Iconimage_Selected = null;
-            this.RepairButton.IconMarginLeft = 0;
-            this.RepairButton.IconMarginRight = 0;
-            this.RepairButton.IconRightVisible = true;
-            this.RepairButton.IconRightZoom = 0D;
-            this.RepairButton.IconVisible = true;
-            this.RepairButton.IconZoom = 90D;
-            this.RepairButton.IsTab = false;
-            this.RepairButton.Location = new System.Drawing.Point(994, 304);
-            this.RepairButton.Name = "RepairButton";
-            this.RepairButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
-            this.RepairButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(155)))), ((int)(((byte)(229)))));
-            this.RepairButton.OnHoverTextColor = System.Drawing.Color.White;
-            this.RepairButton.selected = false;
-            this.RepairButton.Size = new System.Drawing.Size(124, 48);
-            this.RepairButton.TabIndex = 8;
-            this.RepairButton.Text = "Réinstaller";
-            this.RepairButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.RepairButton.Textcolor = System.Drawing.Color.White;
-            this.RepairButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UninstallButton.Active = false;
+            this.UninstallButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
+            this.UninstallButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
+            this.UninstallButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.UninstallButton.BorderRadius = 0;
+            this.UninstallButton.ButtonText = "Désinstaller";
+            this.UninstallButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UninstallButton.DisabledColor = System.Drawing.Color.Gray;
+            this.UninstallButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.UninstallButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("UninstallButton.Iconimage")));
+            this.UninstallButton.Iconimage_right = null;
+            this.UninstallButton.Iconimage_right_Selected = null;
+            this.UninstallButton.Iconimage_Selected = null;
+            this.UninstallButton.IconMarginLeft = 0;
+            this.UninstallButton.IconMarginRight = 0;
+            this.UninstallButton.IconRightVisible = true;
+            this.UninstallButton.IconRightZoom = 0D;
+            this.UninstallButton.IconVisible = true;
+            this.UninstallButton.IconZoom = 90D;
+            this.UninstallButton.IsTab = false;
+            this.UninstallButton.Location = new System.Drawing.Point(979, 304);
+            this.UninstallButton.Name = "UninstallButton";
+            this.UninstallButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
+            this.UninstallButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(155)))), ((int)(((byte)(229)))));
+            this.UninstallButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.UninstallButton.selected = false;
+            this.UninstallButton.Size = new System.Drawing.Size(150, 48);
+            this.UninstallButton.TabIndex = 8;
+            this.UninstallButton.Text = "Désinstaller";
+            this.UninstallButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.UninstallButton.Textcolor = System.Drawing.Color.White;
+            this.UninstallButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // pictureBox6
             // 
@@ -1797,75 +1808,76 @@
             this.TitleGameLabel.TabIndex = 6;
             this.TitleGameLabel.Text = "Venez vivre votre aventure";
             // 
-            // bunifuFlatButton3
+            // UpdateButton
             // 
-            this.bunifuFlatButton3.Active = false;
-            this.bunifuFlatButton3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.bunifuFlatButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.bunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "Mise à jour";
-            this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton3.Iconimage")));
-            this.bunifuFlatButton3.Iconimage_right = null;
-            this.bunifuFlatButton3.Iconimage_right_Selected = null;
-            this.bunifuFlatButton3.Iconimage_Selected = null;
-            this.bunifuFlatButton3.IconMarginLeft = 0;
-            this.bunifuFlatButton3.IconMarginRight = 0;
-            this.bunifuFlatButton3.IconRightVisible = true;
-            this.bunifuFlatButton3.IconRightZoom = 0D;
-            this.bunifuFlatButton3.IconVisible = true;
-            this.bunifuFlatButton3.IconZoom = 90D;
-            this.bunifuFlatButton3.IsTab = false;
-            this.bunifuFlatButton3.Location = new System.Drawing.Point(565, 481);
-            this.bunifuFlatButton3.Name = "bunifuFlatButton3";
-            this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.Size = new System.Drawing.Size(138, 43);
-            this.bunifuFlatButton3.TabIndex = 5;
-            this.bunifuFlatButton3.Text = "Mise à jour";
-            this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdateButton.Active = false;
+            this.UpdateButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.UpdateButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.UpdateButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.UpdateButton.BorderRadius = 0;
+            this.UpdateButton.ButtonText = "Mise à jour";
+            this.UpdateButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpdateButton.DisabledColor = System.Drawing.Color.Gray;
+            this.UpdateButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.UpdateButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("UpdateButton.Iconimage")));
+            this.UpdateButton.Iconimage_right = null;
+            this.UpdateButton.Iconimage_right_Selected = null;
+            this.UpdateButton.Iconimage_Selected = null;
+            this.UpdateButton.IconMarginLeft = 0;
+            this.UpdateButton.IconMarginRight = 0;
+            this.UpdateButton.IconRightVisible = true;
+            this.UpdateButton.IconRightZoom = 0D;
+            this.UpdateButton.IconVisible = true;
+            this.UpdateButton.IconZoom = 90D;
+            this.UpdateButton.IsTab = false;
+            this.UpdateButton.Location = new System.Drawing.Point(565, 481);
+            this.UpdateButton.Name = "UpdateButton";
+            this.UpdateButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.UpdateButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.UpdateButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.UpdateButton.selected = false;
+            this.UpdateButton.Size = new System.Drawing.Size(138, 43);
+            this.UpdateButton.TabIndex = 5;
+            this.UpdateButton.Text = "Mise à jour";
+            this.UpdateButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.UpdateButton.Textcolor = System.Drawing.Color.White;
+            this.UpdateButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuFlatButton2
+            // VoteButton
             // 
-            this.bunifuFlatButton2.Active = false;
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
-            this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "Voter";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton2.Iconimage")));
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 0;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 90D;
-            this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(122, 304);
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(155)))), ((int)(((byte)(229)))));
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(124, 48);
-            this.bunifuFlatButton2.TabIndex = 4;
-            this.bunifuFlatButton2.Text = "Voter";
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VoteButton.Active = false;
+            this.VoteButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
+            this.VoteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
+            this.VoteButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.VoteButton.BorderRadius = 0;
+            this.VoteButton.ButtonText = "Voter";
+            this.VoteButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.VoteButton.DisabledColor = System.Drawing.Color.Gray;
+            this.VoteButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.VoteButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("VoteButton.Iconimage")));
+            this.VoteButton.Iconimage_right = null;
+            this.VoteButton.Iconimage_right_Selected = null;
+            this.VoteButton.Iconimage_Selected = null;
+            this.VoteButton.IconMarginLeft = 0;
+            this.VoteButton.IconMarginRight = 0;
+            this.VoteButton.IconRightVisible = true;
+            this.VoteButton.IconRightZoom = 0D;
+            this.VoteButton.IconVisible = true;
+            this.VoteButton.IconZoom = 90D;
+            this.VoteButton.IsTab = false;
+            this.VoteButton.Location = new System.Drawing.Point(112, 304);
+            this.VoteButton.Name = "VoteButton";
+            this.VoteButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
+            this.VoteButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(155)))), ((int)(((byte)(229)))));
+            this.VoteButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.VoteButton.selected = false;
+            this.VoteButton.Size = new System.Drawing.Size(150, 48);
+            this.VoteButton.TabIndex = 4;
+            this.VoteButton.Text = "Voter";
+            this.VoteButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.VoteButton.Textcolor = System.Drawing.Color.White;
+            this.VoteButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VoteButton.Click += new System.EventHandler(this.VoteButton_Click);
             // 
             // pictureBox5
             // 
@@ -1877,17 +1889,17 @@
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
             // 
-            // bunifuProgressBar1
+            // ProgressBar
             // 
-            this.bunifuProgressBar1.BackColor = System.Drawing.Color.Silver;
-            this.bunifuProgressBar1.BorderRadius = 5;
-            this.bunifuProgressBar1.Location = new System.Drawing.Point(471, 436);
-            this.bunifuProgressBar1.MaximumValue = 100;
-            this.bunifuProgressBar1.Name = "bunifuProgressBar1";
-            this.bunifuProgressBar1.ProgressColor = System.Drawing.Color.Teal;
-            this.bunifuProgressBar1.Size = new System.Drawing.Size(320, 10);
-            this.bunifuProgressBar1.TabIndex = 2;
-            this.bunifuProgressBar1.Value = 0;
+            this.ProgressBar.BackColor = System.Drawing.Color.Silver;
+            this.ProgressBar.BorderRadius = 5;
+            this.ProgressBar.Location = new System.Drawing.Point(471, 436);
+            this.ProgressBar.MaximumValue = 100;
+            this.ProgressBar.Name = "ProgressBar";
+            this.ProgressBar.ProgressColor = System.Drawing.Color.Teal;
+            this.ProgressBar.Size = new System.Drawing.Size(320, 10);
+            this.ProgressBar.TabIndex = 2;
+            this.ProgressBar.Value = 0;
             // 
             // PlayButton
             // 
@@ -1977,17 +1989,6 @@
             this.label2.Size = new System.Drawing.Size(147, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "Copyright 2018 - RoCaD";
-            // 
-            // bunifuCustomLabel1
-            // 
-            this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(137, 26);
-            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(754, 31);
-            this.bunifuCustomLabel1.TabIndex = 1;
-            this.bunifuCustomLabel1.Text = "Bienvenue sur le serveur Reward of City and Department";
             // 
             // Form
             // 
@@ -2084,13 +2085,13 @@
         private System.Windows.Forms.Panel InformationsPanel;
         private Bunifu.Framework.UI.BunifuFlatButton PlayButton;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private Bunifu.Framework.UI.BunifuProgressBar bunifuProgressBar1;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
+        private Bunifu.Framework.UI.BunifuProgressBar ProgressBar;
+        private Bunifu.Framework.UI.BunifuFlatButton UpdateButton;
+        private Bunifu.Framework.UI.BunifuFlatButton VoteButton;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label TitleGameLabel;
         private System.Windows.Forms.Panel FooterPanelServer;
-        private Bunifu.Framework.UI.BunifuFlatButton RepairButton;
+        private Bunifu.Framework.UI.BunifuFlatButton UninstallButton;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Panel FooterPanel2;
         private System.Windows.Forms.Label label1;

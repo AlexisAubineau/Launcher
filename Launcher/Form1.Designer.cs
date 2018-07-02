@@ -32,7 +32,6 @@
             this.ExitMenu = new System.Windows.Forms.Panel();
             this.MinMenu = new System.Windows.Forms.Panel();
             this.MenuPanel = new System.Windows.Forms.Panel();
-            this.HomePanel = new System.Windows.Forms.Panel();
             this.SettingsPanel = new System.Windows.Forms.Panel();
             this.WelcomeActiveTab = new System.Windows.Forms.Panel();
             this.ServerActiveTabPanel = new System.Windows.Forms.Panel();
@@ -40,8 +39,11 @@
             this.InformationsButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.ServerButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.WelcomeButon = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.HomePanel = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.WelcomePanel = new System.Windows.Forms.Panel();
             this.ReglementPanel5 = new System.Windows.Forms.Panel();
+            this.label35 = new System.Windows.Forms.Label();
             this.BackPanel4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
@@ -116,7 +118,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.SocialTitleLabel = new System.Windows.Forms.Label();
             this.DiscordPanel = new System.Windows.Forms.Panel();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.DiscordJoinButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.DiscodTitleLabel = new System.Windows.Forms.Label();
@@ -135,10 +136,10 @@
             this.InformationsPanel = new System.Windows.Forms.Panel();
             this.FooterPanel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.MenuPanel.SuspendLayout();
             this.HomePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.WelcomePanel.SuspendLayout();
             this.ReglementPanel5.SuspendLayout();
             this.ReglementPanel4.SuspendLayout();
@@ -161,7 +162,6 @@
             this.FooterPanelServer.SuspendLayout();
             this.InformationsPanel.SuspendLayout();
             this.FooterPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // ExitMenu
@@ -206,14 +206,6 @@
             this.MenuPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseDown);
             this.MenuPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseMove);
             this.MenuPanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseUp);
-            // 
-            // HomePanel
-            // 
-            this.HomePanel.Controls.Add(this.pictureBox7);
-            this.HomePanel.Location = new System.Drawing.Point(208, 51);
-            this.HomePanel.Name = "HomePanel";
-            this.HomePanel.Size = new System.Drawing.Size(1001, 549);
-            this.HomePanel.TabIndex = 8;
             // 
             // SettingsPanel
             // 
@@ -356,6 +348,25 @@
             this.WelcomeButon.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WelcomeButon.Click += new System.EventHandler(this.WelcomeButton_Click);
             // 
+            // HomePanel
+            // 
+            this.HomePanel.Controls.Add(this.bunifuCustomLabel1);
+            this.HomePanel.Controls.Add(this.pictureBox7);
+            this.HomePanel.Location = new System.Drawing.Point(208, 51);
+            this.HomePanel.Name = "HomePanel";
+            this.HomePanel.Size = new System.Drawing.Size(1001, 549);
+            this.HomePanel.TabIndex = 8;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(0, 86);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(1001, 463);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            // 
             // WelcomePanel
             // 
             this.WelcomePanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -397,6 +408,17 @@
             this.ReglementPanel5.Size = new System.Drawing.Size(1002, 551);
             this.ReglementPanel5.TabIndex = 15;
             this.ReglementPanel5.Visible = false;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.White;
+            this.label35.Location = new System.Drawing.Point(228, 339);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(581, 24);
+            this.label35.TabIndex = 14;
+            this.label35.Text = "Vous trouverez la suite sur le discord dans l\'onglet réglement";
             // 
             // BackPanel4
             // 
@@ -1484,7 +1506,7 @@
             this.panel1.Controls.Add(this.ChaineLinkButton);
             this.panel1.Location = new System.Drawing.Point(605, 171);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 278);
+            this.panel1.Size = new System.Drawing.Size(200, 223);
             this.panel1.TabIndex = 7;
             // 
             // pictureBox2
@@ -1520,13 +1542,13 @@
             this.ChaineLinkButton.IconVisible = true;
             this.ChaineLinkButton.IconZoom = 90D;
             this.ChaineLinkButton.IsTab = false;
-            this.ChaineLinkButton.Location = new System.Drawing.Point(0, 230);
+            this.ChaineLinkButton.Location = new System.Drawing.Point(0, 170);
             this.ChaineLinkButton.Name = "ChaineLinkButton";
             this.ChaineLinkButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.ChaineLinkButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.ChaineLinkButton.OnHoverTextColor = System.Drawing.Color.White;
             this.ChaineLinkButton.selected = false;
-            this.ChaineLinkButton.Size = new System.Drawing.Size(200, 48);
+            this.ChaineLinkButton.Size = new System.Drawing.Size(200, 53);
             this.ChaineLinkButton.TabIndex = 0;
             this.ChaineLinkButton.Text = "S\'abonner";
             this.ChaineLinkButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1581,13 +1603,13 @@
             this.TwitterButton.IconVisible = true;
             this.TwitterButton.IconZoom = 90D;
             this.TwitterButton.IsTab = false;
-            this.TwitterButton.Location = new System.Drawing.Point(598, 305);
+            this.TwitterButton.Location = new System.Drawing.Point(598, 337);
             this.TwitterButton.Name = "TwitterButton";
             this.TwitterButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
             this.TwitterButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(136)))), ((int)(((byte)(229)))));
             this.TwitterButton.OnHoverTextColor = System.Drawing.Color.White;
             this.TwitterButton.selected = false;
-            this.TwitterButton.Size = new System.Drawing.Size(184, 81);
+            this.TwitterButton.Size = new System.Drawing.Size(184, 49);
             this.TwitterButton.TabIndex = 2;
             this.TwitterButton.Text = "Nous suivre";
             this.TwitterButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1623,7 +1645,6 @@
             // 
             // DiscordPanel
             // 
-            this.DiscordPanel.Controls.Add(this.vScrollBar1);
             this.DiscordPanel.Controls.Add(this.pictureBox1);
             this.DiscordPanel.Controls.Add(this.DiscordJoinButton);
             this.DiscordPanel.Controls.Add(this.DiscodTitleLabel);
@@ -1632,13 +1653,6 @@
             this.DiscordPanel.Size = new System.Drawing.Size(1209, 547);
             this.DiscordPanel.TabIndex = 9;
             this.DiscordPanel.Visible = false;
-            // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Location = new System.Drawing.Point(0, 0);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(17, 80);
-            this.vScrollBar1.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -1964,24 +1978,16 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Copyright 2018 - RoCaD";
             // 
-            // label35
+            // bunifuCustomLabel1
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(228, 339);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(581, 24);
-            this.label35.TabIndex = 14;
-            this.label35.Text = "Vous trouverez la suite sur le discord dans l\'onglet réglement";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(1001, 549);
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(137, 26);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(754, 31);
+            this.bunifuCustomLabel1.TabIndex = 1;
+            this.bunifuCustomLabel1.Text = "Bienvenue sur le serveur Reward of City and Department";
             // 
             // Form
             // 
@@ -2001,6 +2007,8 @@
             this.Load += new System.EventHandler(this.Form_Load);
             this.MenuPanel.ResumeLayout(false);
             this.HomePanel.ResumeLayout(false);
+            this.HomePanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.WelcomePanel.ResumeLayout(false);
             this.ReglementPanel5.ResumeLayout(false);
             this.ReglementPanel5.PerformLayout();
@@ -2035,7 +2043,6 @@
             this.InformationsPanel.ResumeLayout(false);
             this.FooterPanel3.ResumeLayout(false);
             this.FooterPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2053,7 +2060,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton DiscordButton;
         private Bunifu.Framework.UI.BunifuFlatButton SocialButton;
         private System.Windows.Forms.Label CopyrightLabel;
-        private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Panel DiscordPanel;
         private System.Windows.Forms.Label DiscodTitleLabel;
         private Bunifu.Framework.UI.BunifuFlatButton DiscordJoinButton;
@@ -2149,6 +2155,7 @@
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
     }
 }
 

@@ -93,6 +93,12 @@ namespace Launcher
             ServerPanel.Visible = false;
             InformationsPanel.Visible = false;
             WelcomePanel.Visible = true;
+            DiscordPanel.Visible = false;
+            ReglementPanel1.Visible = false;
+            ChainePanel.Visible = false;
+            SocialPanel.Visible = false;
+            HomePanel.Visible = true;
+            SettingsPanel.Visible = false;
         }
 
         private void ReglementButton_Click(object sender, EventArgs e)
@@ -100,13 +106,11 @@ namespace Launcher
             if(ReglementPanel1.Visible == true)
             {
                 ReglementPanel1.Visible = false;
-                vScrollBar1.Visible = false;
                 HomePanel.Visible = true;
             }
             else
             {
                 ReglementPanel1.Visible = true;
-                vScrollBar1.Visible = true;
                 DiscordPanel.Visible = false;
                 ChainePanel.Visible = false;
                 SocialPanel.Visible = false;
@@ -178,7 +182,6 @@ namespace Launcher
             {
                 DiscordPanel.Visible = true;
                 ReglementPanel1.Visible = false;
-                vScrollBar1.Visible = false;
                 ChainePanel.Visible = false;
                 SocialPanel.Visible = false;
                 HomePanel.Visible = false;
@@ -207,7 +210,6 @@ namespace Launcher
             {
                 DiscordPanel.Visible = false;
                 ReglementPanel1.Visible = false;
-                vScrollBar1.Visible = false;
                 ChainePanel.Visible = true;
                 SocialPanel.Visible = false;
                 HomePanel.Visible = false;
@@ -236,7 +238,6 @@ namespace Launcher
             {
                 DiscordPanel.Visible = false;
                 ReglementPanel1.Visible = false;
-                vScrollBar1.Visible = false;
                 ChainePanel.Visible = false;
                 SocialPanel.Visible = true;
                 HomePanel.Visible = false;
@@ -265,7 +266,6 @@ namespace Launcher
             {
                 DiscordPanel.Visible = false;
                 ReglementPanel1.Visible = false;
-                vScrollBar1.Visible = false;
                 ChainePanel.Visible = false;
                 SocialPanel.Visible = false;
                 HomePanel.Visible = false;
@@ -292,6 +292,12 @@ namespace Launcher
             ReglementPanel3.Visible = false;
             ReglementPanel4.Visible = false;
             ReglementPanel5.Visible = false;
+            DiscordPanel.Visible = false;
+            ReglementPanel1.Visible = false;
+            ChainePanel.Visible = false;
+            SocialPanel.Visible = false;
+            HomePanel.Visible = false;
+            SettingsPanel.Visible = false;
         }
 
         private void PlayButton_Click(object sender, EventArgs e)
@@ -313,6 +319,12 @@ namespace Launcher
             ReglementPanel3.Visible = false;
             ReglementPanel4.Visible = false;
             ReglementPanel5.Visible = false;
+            DiscordPanel.Visible = false;
+            ReglementPanel1.Visible = false;
+            ChainePanel.Visible = false;
+            SocialPanel.Visible = false;
+            HomePanel.Visible = false;
+            SettingsPanel.Visible = false;
         }
     }
 }

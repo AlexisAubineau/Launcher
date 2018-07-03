@@ -475,12 +475,12 @@ namespace Launcher
 
         private void PlayButton_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Attention vous allez arriver sur la page d'accueil de FiveM il vous suffira juste d'attendre un petit moment pour que la connexion automatique se lance, bon jeu à vous.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             System.Diagnostics.Process.Start("fivem://connect/86.105.212.151:30121");
         }
 
         private void VoteButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Attention vous allez arriver sur la page d'accueil de FiveM il vous suffira juste d'attendre un petit moment pour que la connexion automatique se lance, bon jeu à vous.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             System.Diagnostics.Process.Start("https://gta.top-serveurs.net/vote/reward-of-city-and-departements/");
         }
 

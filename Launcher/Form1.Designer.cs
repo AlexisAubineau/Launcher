@@ -149,8 +149,8 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.PlayButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.InformationsPanel = new System.Windows.Forms.Panel();
-            this.FolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.InformationTitleLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.FolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.MenuPanel.SuspendLayout();
             this.SettingsPanel.SuspendLayout();
             this.HomePanel.SuspendLayout();
@@ -1922,7 +1922,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(467, 89);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(473, 267);
+            this.pictureBox1.Size = new System.Drawing.Size(469, 268);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;

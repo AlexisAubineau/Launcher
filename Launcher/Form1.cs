@@ -473,22 +473,22 @@ namespace Launcher
             
         }
 
-        private void PlayButton_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Attention vous allez arriver sur la page d'accueil de FiveM il vous suffira juste d'attendre un petit moment pour que la connexion automatique se lance, bon jeu à vous.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            System.Diagnostics.Process.Start("fivem://connect/86.105.212.151:30121");
-        }
-
         private void VoteButton_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://gta.top-serveurs.net/vote/reward-of-city-and-departements/");
+        }
+
+        private void PlayButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Attention vous allez arriver sur la page d'accueil de FiveM il vous suffira juste d'attendre un petit moment pour que la connexion automatique se lance, bon jeu à vous.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            System.Diagnostics.Process.Start("fivem://connect/86.105.212.151:1283");
         }
 
         WebClient client;
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            string url = ("https://fs7.transfernow.net/download/5b3ba2ad3f757/master/dlc.rpf");
+            string url = ("https://alexisaubineau.000webhostapp.com/dlc.rpf");
             if (!string.IsNullOrEmpty(url))
             {
                 UpdateButton.Visible = false;

@@ -9,6 +9,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Description = Launcher serveur Reward of City and Departments
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A6D61BE1-84D4-44B8-A2CE-71F5A56BFAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

@@ -32,17 +32,29 @@
             this.ExitMenu = new System.Windows.Forms.Panel();
             this.MinMenu = new System.Windows.Forms.Panel();
             this.MenuPanel = new System.Windows.Forms.Panel();
-            this.SettingsPanel = new System.Windows.Forms.Panel();
             this.WelcomeActiveTab = new System.Windows.Forms.Panel();
             this.ServerActiveTabPanel = new System.Windows.Forms.Panel();
             this.InformationActiveTab = new System.Windows.Forms.Panel();
             this.InformationsButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.ServerButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.WelcomeButon = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.SettingsPanel = new System.Windows.Forms.Panel();
+            this.FinishButton = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.FolderBrowseFiveMButton = new System.Windows.Forms.Button();
+            this.FolderBrowseGTAVButton = new System.Windows.Forms.Button();
+            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.FolderFiveMTextBox = new System.Windows.Forms.TextBox();
+            this.Link1Label = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.FolderGTAVTextBox = new System.Windows.Forms.TextBox();
+            this.SettingsTitleLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.HomePanel = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.WelcomePanel = new System.Windows.Forms.Panel();
+            this.DonnationPanel = new System.Windows.Forms.Panel();
+            this.DonnationFinishButton = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.DonnationTitleLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.ReglementPanel5 = new System.Windows.Forms.Panel();
             this.label35 = new System.Windows.Forms.Label();
             this.BackPanel4 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -102,9 +114,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.RegelementTitle = new System.Windows.Forms.Label();
-            this.FooterPanel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.DashboardPanel = new System.Windows.Forms.Panel();
+            this.DonationButton = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.SettingsButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.SocialButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.ChaineButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.DiscordButton = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -122,31 +134,35 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.DiscordJoinButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.DiscodTitleLabel = new System.Windows.Forms.Label();
-            this.CopyrightLabel = new System.Windows.Forms.Label();
+            this.FooterPanel = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.ServerPanel = new System.Windows.Forms.Panel();
+            this.FinalButon = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.lblStatus = new System.Windows.Forms.Label();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.UpdateButton = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.VoteButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.UninstallButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.TitleGameLabel = new System.Windows.Forms.Label();
-            this.UpdateButton = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.VoteButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.ProgressBar = new Bunifu.Framework.UI.BunifuProgressBar();
-            this.PlayButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.FooterPanelServer = new System.Windows.Forms.Panel();
+            this.PlayButton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.InformationsPanel = new System.Windows.Forms.Panel();
-            this.FooterPanel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.FolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.InformationTitleLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.MenuPanel.SuspendLayout();
+            this.SettingsPanel.SuspendLayout();
             this.HomePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.WelcomePanel.SuspendLayout();
+            this.DonnationPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.ReglementPanel5.SuspendLayout();
             this.ReglementPanel4.SuspendLayout();
             this.ReglementPanel3.SuspendLayout();
             this.ReglementPanel2.SuspendLayout();
             this.ReglementPanel1.SuspendLayout();
-            this.FooterPanel2.SuspendLayout();
             this.DashboardPanel.SuspendLayout();
             this.ChainePanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -155,13 +171,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.DiscordPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.FooterPanel.SuspendLayout();
             this.ServerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.FooterPanelServer.SuspendLayout();
             this.InformationsPanel.SuspendLayout();
-            this.FooterPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // ExitMenu
@@ -189,7 +204,6 @@
             // MenuPanel
             // 
             this.MenuPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.MenuPanel.Controls.Add(this.SettingsPanel);
             this.MenuPanel.Controls.Add(this.WelcomeActiveTab);
             this.MenuPanel.Controls.Add(this.ServerActiveTabPanel);
             this.MenuPanel.Controls.Add(this.InformationActiveTab);
@@ -206,13 +220,6 @@
             this.MenuPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseDown);
             this.MenuPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseMove);
             this.MenuPanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseUp);
-            // 
-            // SettingsPanel
-            // 
-            this.SettingsPanel.Location = new System.Drawing.Point(2, 51);
-            this.SettingsPanel.Name = "SettingsPanel";
-            this.SettingsPanel.Size = new System.Drawing.Size(1207, 549);
-            this.SettingsPanel.TabIndex = 9;
             // 
             // WelcomeActiveTab
             // 
@@ -348,6 +355,127 @@
             this.WelcomeButon.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WelcomeButon.Click += new System.EventHandler(this.WelcomeButton_Click);
             // 
+            // SettingsPanel
+            // 
+            this.SettingsPanel.Controls.Add(this.FinishButton);
+            this.SettingsPanel.Controls.Add(this.FolderBrowseFiveMButton);
+            this.SettingsPanel.Controls.Add(this.FolderBrowseGTAVButton);
+            this.SettingsPanel.Controls.Add(this.bunifuCustomLabel2);
+            this.SettingsPanel.Controls.Add(this.FolderFiveMTextBox);
+            this.SettingsPanel.Controls.Add(this.Link1Label);
+            this.SettingsPanel.Controls.Add(this.FolderGTAVTextBox);
+            this.SettingsPanel.Controls.Add(this.SettingsTitleLabel);
+            this.SettingsPanel.Location = new System.Drawing.Point(208, 51);
+            this.SettingsPanel.Name = "SettingsPanel";
+            this.SettingsPanel.Size = new System.Drawing.Size(1001, 549);
+            this.SettingsPanel.TabIndex = 9;
+            this.SettingsPanel.Visible = false;
+            // 
+            // FinishButton
+            // 
+            this.FinishButton.Active = false;
+            this.FinishButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.FinishButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.FinishButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.FinishButton.BorderRadius = 0;
+            this.FinishButton.ButtonText = "Terminer";
+            this.FinishButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FinishButton.DisabledColor = System.Drawing.Color.Gray;
+            this.FinishButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.FinishButton.Iconimage = null;
+            this.FinishButton.Iconimage_right = null;
+            this.FinishButton.Iconimage_right_Selected = null;
+            this.FinishButton.Iconimage_Selected = null;
+            this.FinishButton.IconMarginLeft = 0;
+            this.FinishButton.IconMarginRight = 0;
+            this.FinishButton.IconRightVisible = true;
+            this.FinishButton.IconRightZoom = 0D;
+            this.FinishButton.IconVisible = true;
+            this.FinishButton.IconZoom = 90D;
+            this.FinishButton.IsTab = false;
+            this.FinishButton.Location = new System.Drawing.Point(397, 399);
+            this.FinishButton.Name = "FinishButton";
+            this.FinishButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.FinishButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.FinishButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.FinishButton.selected = false;
+            this.FinishButton.Size = new System.Drawing.Size(241, 48);
+            this.FinishButton.TabIndex = 7;
+            this.FinishButton.Text = "Terminer";
+            this.FinishButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.FinishButton.Textcolor = System.Drawing.Color.White;
+            this.FinishButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FinishButton.Click += new System.EventHandler(this.FinishButton_Click);
+            // 
+            // FolderBrowseFiveMButton
+            // 
+            this.FolderBrowseFiveMButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FolderBrowseFiveMButton.Location = new System.Drawing.Point(759, 285);
+            this.FolderBrowseFiveMButton.Name = "FolderBrowseFiveMButton";
+            this.FolderBrowseFiveMButton.Size = new System.Drawing.Size(48, 20);
+            this.FolderBrowseFiveMButton.TabIndex = 6;
+            this.FolderBrowseFiveMButton.Text = "...";
+            this.FolderBrowseFiveMButton.UseVisualStyleBackColor = true;
+            this.FolderBrowseFiveMButton.Click += new System.EventHandler(this.FolderBrowseFiveMButton_Click);
+            // 
+            // FolderBrowseGTAVButton
+            // 
+            this.FolderBrowseGTAVButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FolderBrowseGTAVButton.Location = new System.Drawing.Point(759, 203);
+            this.FolderBrowseGTAVButton.Name = "FolderBrowseGTAVButton";
+            this.FolderBrowseGTAVButton.Size = new System.Drawing.Size(48, 20);
+            this.FolderBrowseGTAVButton.TabIndex = 5;
+            this.FolderBrowseGTAVButton.Text = "...";
+            this.FolderBrowseGTAVButton.UseVisualStyleBackColor = true;
+            this.FolderBrowseGTAVButton.Click += new System.EventHandler(this.FolderBrowseGTAVButton_Click);
+            // 
+            // bunifuCustomLabel2
+            // 
+            this.bunifuCustomLabel2.AutoSize = true;
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(131, 285);
+            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(146, 20);
+            this.bunifuCustomLabel2.TabIndex = 4;
+            this.bunifuCustomLabel2.Text = "Chemin de FiveM";
+            // 
+            // FolderFiveMTextBox
+            // 
+            this.FolderFiveMTextBox.Location = new System.Drawing.Point(322, 285);
+            this.FolderFiveMTextBox.Name = "FolderFiveMTextBox";
+            this.FolderFiveMTextBox.Size = new System.Drawing.Size(431, 20);
+            this.FolderFiveMTextBox.TabIndex = 3;
+            // 
+            // Link1Label
+            // 
+            this.Link1Label.AutoSize = true;
+            this.Link1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Link1Label.ForeColor = System.Drawing.Color.White;
+            this.Link1Label.Location = new System.Drawing.Point(131, 203);
+            this.Link1Label.Name = "Link1Label";
+            this.Link1Label.Size = new System.Drawing.Size(147, 20);
+            this.Link1Label.TabIndex = 2;
+            this.Link1Label.Text = "Chemin de GTAV";
+            // 
+            // FolderGTAVTextBox
+            // 
+            this.FolderGTAVTextBox.Location = new System.Drawing.Point(322, 203);
+            this.FolderGTAVTextBox.Name = "FolderGTAVTextBox";
+            this.FolderGTAVTextBox.Size = new System.Drawing.Size(431, 20);
+            this.FolderGTAVTextBox.TabIndex = 1;
+            // 
+            // SettingsTitleLabel
+            // 
+            this.SettingsTitleLabel.AutoSize = true;
+            this.SettingsTitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SettingsTitleLabel.ForeColor = System.Drawing.Color.White;
+            this.SettingsTitleLabel.Location = new System.Drawing.Point(342, 44);
+            this.SettingsTitleLabel.Name = "SettingsTitleLabel";
+            this.SettingsTitleLabel.Size = new System.Drawing.Size(309, 31);
+            this.SettingsTitleLabel.TabIndex = 0;
+            this.SettingsTitleLabel.Text = "Paramètre du launcher";
+            // 
             // HomePanel
             // 
             this.HomePanel.Controls.Add(this.bunifuCustomLabel1);
@@ -384,13 +512,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.WelcomePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.WelcomePanel.Controls.Add(this.SettingsPanel);
+            this.WelcomePanel.Controls.Add(this.DonnationPanel);
             this.WelcomePanel.Controls.Add(this.HomePanel);
             this.WelcomePanel.Controls.Add(this.ReglementPanel5);
             this.WelcomePanel.Controls.Add(this.ReglementPanel4);
             this.WelcomePanel.Controls.Add(this.ReglementPanel3);
             this.WelcomePanel.Controls.Add(this.ReglementPanel2);
             this.WelcomePanel.Controls.Add(this.ReglementPanel1);
-            this.WelcomePanel.Controls.Add(this.FooterPanel2);
             this.WelcomePanel.Controls.Add(this.DashboardPanel);
             this.WelcomePanel.Controls.Add(this.ChainePanel);
             this.WelcomePanel.Controls.Add(this.SocialPanel);
@@ -399,6 +528,74 @@
             this.WelcomePanel.Name = "WelcomePanel";
             this.WelcomePanel.Size = new System.Drawing.Size(1209, 646);
             this.WelcomePanel.TabIndex = 0;
+            // 
+            // DonnationPanel
+            // 
+            this.DonnationPanel.Controls.Add(this.DonnationFinishButton);
+            this.DonnationPanel.Controls.Add(this.pictureBox8);
+            this.DonnationPanel.Controls.Add(this.DonnationTitleLabel);
+            this.DonnationPanel.Location = new System.Drawing.Point(208, 51);
+            this.DonnationPanel.Name = "DonnationPanel";
+            this.DonnationPanel.Size = new System.Drawing.Size(1002, 551);
+            this.DonnationPanel.TabIndex = 8;
+            this.DonnationPanel.Visible = false;
+            // 
+            // DonnationFinishButton
+            // 
+            this.DonnationFinishButton.Active = false;
+            this.DonnationFinishButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.DonnationFinishButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.DonnationFinishButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.DonnationFinishButton.BorderRadius = 0;
+            this.DonnationFinishButton.ButtonText = "Faire un Don";
+            this.DonnationFinishButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DonnationFinishButton.DisabledColor = System.Drawing.Color.Gray;
+            this.DonnationFinishButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.DonnationFinishButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("DonnationFinishButton.Iconimage")));
+            this.DonnationFinishButton.Iconimage_right = null;
+            this.DonnationFinishButton.Iconimage_right_Selected = null;
+            this.DonnationFinishButton.Iconimage_Selected = null;
+            this.DonnationFinishButton.IconMarginLeft = 0;
+            this.DonnationFinishButton.IconMarginRight = 0;
+            this.DonnationFinishButton.IconRightVisible = true;
+            this.DonnationFinishButton.IconRightZoom = 0D;
+            this.DonnationFinishButton.IconVisible = true;
+            this.DonnationFinishButton.IconZoom = 90D;
+            this.DonnationFinishButton.IsTab = false;
+            this.DonnationFinishButton.Location = new System.Drawing.Point(371, 421);
+            this.DonnationFinishButton.Name = "DonnationFinishButton";
+            this.DonnationFinishButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.DonnationFinishButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.DonnationFinishButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.DonnationFinishButton.selected = false;
+            this.DonnationFinishButton.Size = new System.Drawing.Size(250, 48);
+            this.DonnationFinishButton.TabIndex = 2;
+            this.DonnationFinishButton.Text = "Faire un Don";
+            this.DonnationFinishButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DonnationFinishButton.Textcolor = System.Drawing.Color.White;
+            this.DonnationFinishButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DonnationFinishButton.Click += new System.EventHandler(this.DonnationFinishButton_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(371, 125);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(250, 250);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 1;
+            this.pictureBox8.TabStop = false;
+            // 
+            // DonnationTitleLabel
+            // 
+            this.DonnationTitleLabel.AutoSize = true;
+            this.DonnationTitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DonnationTitleLabel.ForeColor = System.Drawing.Color.White;
+            this.DonnationTitleLabel.Location = new System.Drawing.Point(189, 65);
+            this.DonnationTitleLabel.Name = "DonnationTitleLabel";
+            this.DonnationTitleLabel.Size = new System.Drawing.Size(652, 31);
+            this.DonnationTitleLabel.TabIndex = 0;
+            this.DonnationTitleLabel.Text = "Vous voulez soutenir le serveur tout ce passe ici.";
             // 
             // ReglementPanel5
             // 
@@ -1312,32 +1509,13 @@
             this.RegelementTitle.TabIndex = 0;
             this.RegelementTitle.Text = "Reglement du serveur Reward of City and Departments";
             // 
-            // FooterPanel2
-            // 
-            this.FooterPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(179)))), ((int)(((byte)(70)))));
-            this.FooterPanel2.Controls.Add(this.label1);
-            this.FooterPanel2.Location = new System.Drawing.Point(1, 601);
-            this.FooterPanel2.Name = "FooterPanel2";
-            this.FooterPanel2.Size = new System.Drawing.Size(1209, 45);
-            this.FooterPanel2.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(23, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 16);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Copyright 2018 - RoCaD";
-            // 
             // DashboardPanel
             // 
             this.DashboardPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.DashboardPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.DashboardPanel.Controls.Add(this.DonationButton);
+            this.DashboardPanel.Controls.Add(this.SettingsButton);
             this.DashboardPanel.Controls.Add(this.SocialButton);
             this.DashboardPanel.Controls.Add(this.ChaineButton);
             this.DashboardPanel.Controls.Add(this.DiscordButton);
@@ -1346,6 +1524,80 @@
             this.DashboardPanel.Name = "DashboardPanel";
             this.DashboardPanel.Size = new System.Drawing.Size(208, 593);
             this.DashboardPanel.TabIndex = 0;
+            // 
+            // DonationButton
+            // 
+            this.DonationButton.Active = false;
+            this.DonationButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.DonationButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.DonationButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.DonationButton.BorderRadius = 0;
+            this.DonationButton.ButtonText = "DONATION";
+            this.DonationButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DonationButton.DisabledColor = System.Drawing.Color.Gray;
+            this.DonationButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.DonationButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.DonationButton.Iconimage = null;
+            this.DonationButton.Iconimage_right = null;
+            this.DonationButton.Iconimage_right_Selected = null;
+            this.DonationButton.Iconimage_Selected = null;
+            this.DonationButton.IconMarginLeft = 0;
+            this.DonationButton.IconMarginRight = 0;
+            this.DonationButton.IconRightVisible = true;
+            this.DonationButton.IconRightZoom = 0D;
+            this.DonationButton.IconVisible = true;
+            this.DonationButton.IconZoom = 90D;
+            this.DonationButton.IsTab = false;
+            this.DonationButton.Location = new System.Drawing.Point(0, 281);
+            this.DonationButton.Name = "DonationButton";
+            this.DonationButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.DonationButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.DonationButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.DonationButton.selected = false;
+            this.DonationButton.Size = new System.Drawing.Size(208, 57);
+            this.DonationButton.TabIndex = 4;
+            this.DonationButton.Text = "DONATION";
+            this.DonationButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DonationButton.Textcolor = System.Drawing.Color.White;
+            this.DonationButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DonationButton.Click += new System.EventHandler(this.DonationButton_Click);
+            // 
+            // SettingsButton
+            // 
+            this.SettingsButton.Active = false;
+            this.SettingsButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.SettingsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.SettingsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SettingsButton.BorderRadius = 0;
+            this.SettingsButton.ButtonText = "PARAMETRE";
+            this.SettingsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SettingsButton.DisabledColor = System.Drawing.Color.Gray;
+            this.SettingsButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SettingsButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.SettingsButton.Iconimage = null;
+            this.SettingsButton.Iconimage_right = null;
+            this.SettingsButton.Iconimage_right_Selected = null;
+            this.SettingsButton.Iconimage_Selected = null;
+            this.SettingsButton.IconMarginLeft = 0;
+            this.SettingsButton.IconMarginRight = 0;
+            this.SettingsButton.IconRightVisible = true;
+            this.SettingsButton.IconRightZoom = 0D;
+            this.SettingsButton.IconVisible = true;
+            this.SettingsButton.IconZoom = 90D;
+            this.SettingsButton.IsTab = false;
+            this.SettingsButton.Location = new System.Drawing.Point(0, 228);
+            this.SettingsButton.Name = "SettingsButton";
+            this.SettingsButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.SettingsButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.SettingsButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.SettingsButton.selected = false;
+            this.SettingsButton.Size = new System.Drawing.Size(208, 53);
+            this.SettingsButton.TabIndex = 5;
+            this.SettingsButton.Text = "PARAMETRE";
+            this.SettingsButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SettingsButton.Textcolor = System.Drawing.Color.White;
+            this.SettingsButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SettingsButton.Click += new System.EventHandler(this.SettingsButton_Click_1);
             // 
             // SocialButton
             // 
@@ -1722,96 +1974,105 @@
             this.DiscodTitleLabel.TabIndex = 0;
             this.DiscodTitleLabel.Text = "Rejoigner nous sur Discord";
             // 
-            // CopyrightLabel
+            // FooterPanel
             // 
-            this.CopyrightLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.CopyrightLabel.AutoSize = true;
-            this.CopyrightLabel.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CopyrightLabel.ForeColor = System.Drawing.Color.Black;
-            this.CopyrightLabel.Location = new System.Drawing.Point(23, 13);
-            this.CopyrightLabel.Name = "CopyrightLabel";
-            this.CopyrightLabel.Size = new System.Drawing.Size(147, 16);
-            this.CopyrightLabel.TabIndex = 5;
-            this.CopyrightLabel.Text = "Copyright 2018 - RoCaD";
+            this.FooterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(179)))), ((int)(((byte)(70)))));
+            this.FooterPanel.Controls.Add(this.label1);
+            this.FooterPanel.Location = new System.Drawing.Point(0, 601);
+            this.FooterPanel.Name = "FooterPanel";
+            this.FooterPanel.Size = new System.Drawing.Size(1209, 45);
+            this.FooterPanel.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(23, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(147, 16);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Copyright 2018 - RoCaD";
             // 
             // ServerPanel
             // 
+            this.ServerPanel.Controls.Add(this.FinalButon);
+            this.ServerPanel.Controls.Add(this.lblStatus);
+            this.ServerPanel.Controls.Add(this.progressBar);
+            this.ServerPanel.Controls.Add(this.UpdateButton);
             this.ServerPanel.Controls.Add(this.VoteButton);
             this.ServerPanel.Controls.Add(this.UninstallButton);
             this.ServerPanel.Controls.Add(this.pictureBox6);
             this.ServerPanel.Controls.Add(this.TitleGameLabel);
-            this.ServerPanel.Controls.Add(this.UpdateButton);
             this.ServerPanel.Controls.Add(this.pictureBox5);
-            this.ServerPanel.Controls.Add(this.ProgressBar);
-            this.ServerPanel.Controls.Add(this.PlayButton);
             this.ServerPanel.Controls.Add(this.pictureBox4);
-            this.ServerPanel.Controls.Add(this.FooterPanelServer);
+            this.ServerPanel.Controls.Add(this.PlayButton);
             this.ServerPanel.Location = new System.Drawing.Point(0, 51);
             this.ServerPanel.Name = "ServerPanel";
             this.ServerPanel.Size = new System.Drawing.Size(1209, 595);
             this.ServerPanel.TabIndex = 0;
-            this.ServerPanel.Visible = false;
             // 
-            // UninstallButton
+            // FinalButon
             // 
-            this.UninstallButton.Active = false;
-            this.UninstallButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
-            this.UninstallButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
-            this.UninstallButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.UninstallButton.BorderRadius = 0;
-            this.UninstallButton.ButtonText = "Désinstaller";
-            this.UninstallButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UninstallButton.DisabledColor = System.Drawing.Color.Gray;
-            this.UninstallButton.Iconcolor = System.Drawing.Color.Transparent;
-            this.UninstallButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("UninstallButton.Iconimage")));
-            this.UninstallButton.Iconimage_right = null;
-            this.UninstallButton.Iconimage_right_Selected = null;
-            this.UninstallButton.Iconimage_Selected = null;
-            this.UninstallButton.IconMarginLeft = 0;
-            this.UninstallButton.IconMarginRight = 0;
-            this.UninstallButton.IconRightVisible = true;
-            this.UninstallButton.IconRightZoom = 0D;
-            this.UninstallButton.IconVisible = true;
-            this.UninstallButton.IconZoom = 90D;
-            this.UninstallButton.IsTab = false;
-            this.UninstallButton.Location = new System.Drawing.Point(979, 304);
-            this.UninstallButton.Name = "UninstallButton";
-            this.UninstallButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
-            this.UninstallButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(155)))), ((int)(((byte)(229)))));
-            this.UninstallButton.OnHoverTextColor = System.Drawing.Color.White;
-            this.UninstallButton.selected = false;
-            this.UninstallButton.Size = new System.Drawing.Size(150, 48);
-            this.UninstallButton.TabIndex = 8;
-            this.UninstallButton.Text = "Désinstaller";
-            this.UninstallButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.UninstallButton.Textcolor = System.Drawing.Color.White;
-            this.UninstallButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FinalButon.Active = false;
+            this.FinalButon.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
+            this.FinalButon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.FinalButon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.FinalButon.BorderRadius = 0;
+            this.FinalButon.ButtonText = "Terminer";
+            this.FinalButon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FinalButon.DisabledColor = System.Drawing.Color.Gray;
+            this.FinalButon.Iconcolor = System.Drawing.Color.Transparent;
+            this.FinalButon.Iconimage = ((System.Drawing.Image)(resources.GetObject("FinalButon.Iconimage")));
+            this.FinalButon.Iconimage_right = null;
+            this.FinalButon.Iconimage_right_Selected = null;
+            this.FinalButon.Iconimage_Selected = null;
+            this.FinalButon.IconMarginLeft = 0;
+            this.FinalButon.IconMarginRight = 0;
+            this.FinalButon.IconRightVisible = true;
+            this.FinalButon.IconRightZoom = 0D;
+            this.FinalButon.IconVisible = true;
+            this.FinalButon.IconZoom = 90D;
+            this.FinalButon.IsTab = false;
+            this.FinalButon.Location = new System.Drawing.Point(509, 472);
+            this.FinalButon.Name = "FinalButon";
+            this.FinalButon.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.FinalButon.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.FinalButon.OnHoverTextColor = System.Drawing.Color.White;
+            this.FinalButon.selected = false;
+            this.FinalButon.Size = new System.Drawing.Size(241, 49);
+            this.FinalButon.TabIndex = 11;
+            this.FinalButon.Text = "Terminer";
+            this.FinalButon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.FinalButon.Textcolor = System.Drawing.Color.White;
+            this.FinalButon.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FinalButon.Visible = false;
+            this.FinalButon.Click += new System.EventHandler(this.FinalButon_Click);
             // 
-            // pictureBox6
+            // lblStatus
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(979, 134);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox6.TabIndex = 7;
-            this.pictureBox6.TabStop = false;
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.ForeColor = System.Drawing.Color.White;
+            this.lblStatus.Location = new System.Drawing.Point(560, 442);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(128, 20);
+            this.lblStatus.TabIndex = 9;
+            this.lblStatus.Text = "Téléchargé 0%";
+            this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // TitleGameLabel
+            // progressBar
             // 
-            this.TitleGameLabel.AutoSize = true;
-            this.TitleGameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleGameLabel.ForeColor = System.Drawing.Color.White;
-            this.TitleGameLabel.Location = new System.Drawing.Point(505, 20);
-            this.TitleGameLabel.Name = "TitleGameLabel";
-            this.TitleGameLabel.Size = new System.Drawing.Size(259, 24);
-            this.TitleGameLabel.TabIndex = 6;
-            this.TitleGameLabel.Text = "Venez vivre votre aventure";
+            this.progressBar.Location = new System.Drawing.Point(471, 414);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(320, 23);
+            this.progressBar.TabIndex = 0;
             // 
             // UpdateButton
             // 
             this.UpdateButton.Active = false;
-            this.UpdateButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.UpdateButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
             this.UpdateButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.UpdateButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.UpdateButton.BorderRadius = 0;
@@ -1830,18 +2091,19 @@
             this.UpdateButton.IconVisible = true;
             this.UpdateButton.IconZoom = 90D;
             this.UpdateButton.IsTab = false;
-            this.UpdateButton.Location = new System.Drawing.Point(565, 481);
+            this.UpdateButton.Location = new System.Drawing.Point(509, 472);
             this.UpdateButton.Name = "UpdateButton";
             this.UpdateButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.UpdateButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.UpdateButton.OnHoverTextColor = System.Drawing.Color.White;
             this.UpdateButton.selected = false;
-            this.UpdateButton.Size = new System.Drawing.Size(138, 43);
-            this.UpdateButton.TabIndex = 5;
+            this.UpdateButton.Size = new System.Drawing.Size(241, 49);
+            this.UpdateButton.TabIndex = 1;
             this.UpdateButton.Text = "Mise à jour";
             this.UpdateButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.UpdateButton.Textcolor = System.Drawing.Color.White;
             this.UpdateButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdateButton.Click += new System.EventHandler(this.UpdateButton_Click);
             // 
             // VoteButton
             // 
@@ -1879,6 +2141,63 @@
             this.VoteButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VoteButton.Click += new System.EventHandler(this.VoteButton_Click);
             // 
+            // UninstallButton
+            // 
+            this.UninstallButton.Active = false;
+            this.UninstallButton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
+            this.UninstallButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
+            this.UninstallButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.UninstallButton.BorderRadius = 0;
+            this.UninstallButton.ButtonText = "Désinstaller";
+            this.UninstallButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UninstallButton.DisabledColor = System.Drawing.Color.Gray;
+            this.UninstallButton.Iconcolor = System.Drawing.Color.Transparent;
+            this.UninstallButton.Iconimage = ((System.Drawing.Image)(resources.GetObject("UninstallButton.Iconimage")));
+            this.UninstallButton.Iconimage_right = null;
+            this.UninstallButton.Iconimage_right_Selected = null;
+            this.UninstallButton.Iconimage_Selected = null;
+            this.UninstallButton.IconMarginLeft = 0;
+            this.UninstallButton.IconMarginRight = 0;
+            this.UninstallButton.IconRightVisible = true;
+            this.UninstallButton.IconRightZoom = 0D;
+            this.UninstallButton.IconVisible = true;
+            this.UninstallButton.IconZoom = 90D;
+            this.UninstallButton.IsTab = false;
+            this.UninstallButton.Location = new System.Drawing.Point(979, 304);
+            this.UninstallButton.Name = "UninstallButton";
+            this.UninstallButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(136)))), ((int)(((byte)(209)))));
+            this.UninstallButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(155)))), ((int)(((byte)(229)))));
+            this.UninstallButton.OnHoverTextColor = System.Drawing.Color.White;
+            this.UninstallButton.selected = false;
+            this.UninstallButton.Size = new System.Drawing.Size(150, 48);
+            this.UninstallButton.TabIndex = 8;
+            this.UninstallButton.Text = "Désinstaller";
+            this.UninstallButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.UninstallButton.Textcolor = System.Drawing.Color.White;
+            this.UninstallButton.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UninstallButton.Click += new System.EventHandler(this.UninstallButton_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(979, 134);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox6.TabIndex = 7;
+            this.pictureBox6.TabStop = false;
+            // 
+            // TitleGameLabel
+            // 
+            this.TitleGameLabel.AutoSize = true;
+            this.TitleGameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleGameLabel.ForeColor = System.Drawing.Color.White;
+            this.TitleGameLabel.Location = new System.Drawing.Point(505, 20);
+            this.TitleGameLabel.Name = "TitleGameLabel";
+            this.TitleGameLabel.Size = new System.Drawing.Size(259, 24);
+            this.TitleGameLabel.TabIndex = 6;
+            this.TitleGameLabel.Text = "Venez vivre votre aventure";
+            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
@@ -1889,17 +2208,16 @@
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
             // 
-            // ProgressBar
+            // pictureBox4
             // 
-            this.ProgressBar.BackColor = System.Drawing.Color.Silver;
-            this.ProgressBar.BorderRadius = 5;
-            this.ProgressBar.Location = new System.Drawing.Point(471, 436);
-            this.ProgressBar.MaximumValue = 100;
-            this.ProgressBar.Name = "ProgressBar";
-            this.ProgressBar.ProgressColor = System.Drawing.Color.Teal;
-            this.ProgressBar.Size = new System.Drawing.Size(320, 10);
-            this.ProgressBar.TabIndex = 2;
-            this.ProgressBar.Value = 0;
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(471, 67);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(320, 320);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
             // 
             // PlayButton
             // 
@@ -1923,14 +2241,14 @@
             this.PlayButton.IconVisible = true;
             this.PlayButton.IconZoom = 90D;
             this.PlayButton.IsTab = false;
-            this.PlayButton.Location = new System.Drawing.Point(509, 416);
+            this.PlayButton.Location = new System.Drawing.Point(509, 472);
             this.PlayButton.Name = "PlayButton";
             this.PlayButton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(108)))), ((int)(((byte)(0)))));
             this.PlayButton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.PlayButton.OnHoverTextColor = System.Drawing.Color.White;
             this.PlayButton.selected = false;
-            this.PlayButton.Size = new System.Drawing.Size(241, 48);
-            this.PlayButton.TabIndex = 1;
+            this.PlayButton.Size = new System.Drawing.Size(241, 49);
+            this.PlayButton.TabIndex = 10;
             this.PlayButton.Text = "Lancer le jeu";
             this.PlayButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.PlayButton.Textcolor = System.Drawing.Color.White;
@@ -1938,57 +2256,25 @@
             this.PlayButton.Visible = false;
             this.PlayButton.Click += new System.EventHandler(this.PlayButton_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(471, 67);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(320, 320);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // FooterPanelServer
-            // 
-            this.FooterPanelServer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.FooterPanelServer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(179)))), ((int)(((byte)(70)))));
-            this.FooterPanelServer.Controls.Add(this.CopyrightLabel);
-            this.FooterPanelServer.Location = new System.Drawing.Point(0, 552);
-            this.FooterPanelServer.Name = "FooterPanelServer";
-            this.FooterPanelServer.Size = new System.Drawing.Size(1209, 43);
-            this.FooterPanelServer.TabIndex = 1;
-            // 
             // InformationsPanel
             // 
-            this.InformationsPanel.Controls.Add(this.FooterPanel3);
-            this.InformationsPanel.Location = new System.Drawing.Point(0, 0);
+            this.InformationsPanel.Controls.Add(this.InformationTitleLabel);
+            this.InformationsPanel.Location = new System.Drawing.Point(0, 51);
             this.InformationsPanel.Name = "InformationsPanel";
-            this.InformationsPanel.Size = new System.Drawing.Size(1209, 646);
+            this.InformationsPanel.Size = new System.Drawing.Size(1209, 595);
             this.InformationsPanel.TabIndex = 1;
             this.InformationsPanel.Visible = false;
             // 
-            // FooterPanel3
+            // InformationTitleLabel
             // 
-            this.FooterPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(179)))), ((int)(((byte)(70)))));
-            this.FooterPanel3.Controls.Add(this.label2);
-            this.FooterPanel3.Location = new System.Drawing.Point(0, 601);
-            this.FooterPanel3.Name = "FooterPanel3";
-            this.FooterPanel3.Size = new System.Drawing.Size(1209, 45);
-            this.FooterPanel3.TabIndex = 7;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(23, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 16);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Copyright 2018 - RoCaD";
+            this.InformationTitleLabel.AutoSize = true;
+            this.InformationTitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InformationTitleLabel.ForeColor = System.Drawing.Color.White;
+            this.InformationTitleLabel.Location = new System.Drawing.Point(286, 242);
+            this.InformationTitleLabel.Name = "InformationTitleLabel";
+            this.InformationTitleLabel.Size = new System.Drawing.Size(654, 39);
+            this.InformationTitleLabel.TabIndex = 0;
+            this.InformationTitleLabel.Text = "Développement en cours Coming Soon";
             // 
             // Form
             // 
@@ -1997,8 +2283,9 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.ClientSize = new System.Drawing.Size(1209, 646);
             this.Controls.Add(this.MenuPanel);
-            this.Controls.Add(this.WelcomePanel);
+            this.Controls.Add(this.FooterPanel);
             this.Controls.Add(this.InformationsPanel);
+            this.Controls.Add(this.WelcomePanel);
             this.Controls.Add(this.ServerPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -2007,10 +2294,15 @@
             this.Text = "Reward of City and Departments";
             this.Load += new System.EventHandler(this.Form_Load);
             this.MenuPanel.ResumeLayout(false);
+            this.SettingsPanel.ResumeLayout(false);
+            this.SettingsPanel.PerformLayout();
             this.HomePanel.ResumeLayout(false);
             this.HomePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.WelcomePanel.ResumeLayout(false);
+            this.DonnationPanel.ResumeLayout(false);
+            this.DonnationPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ReglementPanel5.ResumeLayout(false);
             this.ReglementPanel5.PerformLayout();
             this.ReglementPanel4.ResumeLayout(false);
@@ -2021,8 +2313,6 @@
             this.ReglementPanel2.PerformLayout();
             this.ReglementPanel1.ResumeLayout(false);
             this.ReglementPanel1.PerformLayout();
-            this.FooterPanel2.ResumeLayout(false);
-            this.FooterPanel2.PerformLayout();
             this.DashboardPanel.ResumeLayout(false);
             this.ChainePanel.ResumeLayout(false);
             this.ChainePanel.PerformLayout();
@@ -2034,16 +2324,15 @@
             this.DiscordPanel.ResumeLayout(false);
             this.DiscordPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.FooterPanel.ResumeLayout(false);
+            this.FooterPanel.PerformLayout();
             this.ServerPanel.ResumeLayout(false);
             this.ServerPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.FooterPanelServer.ResumeLayout(false);
-            this.FooterPanelServer.PerformLayout();
             this.InformationsPanel.ResumeLayout(false);
-            this.FooterPanel3.ResumeLayout(false);
-            this.FooterPanel3.PerformLayout();
+            this.InformationsPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2060,7 +2349,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton ChaineButton;
         private Bunifu.Framework.UI.BunifuFlatButton DiscordButton;
         private Bunifu.Framework.UI.BunifuFlatButton SocialButton;
-        private System.Windows.Forms.Label CopyrightLabel;
         private System.Windows.Forms.Panel DiscordPanel;
         private System.Windows.Forms.Label DiscodTitleLabel;
         private Bunifu.Framework.UI.BunifuFlatButton DiscordJoinButton;
@@ -2083,20 +2371,14 @@
         private System.Windows.Forms.Panel InformationActiveTab;
         private System.Windows.Forms.Panel ServerPanel;
         private System.Windows.Forms.Panel InformationsPanel;
-        private Bunifu.Framework.UI.BunifuFlatButton PlayButton;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private Bunifu.Framework.UI.BunifuProgressBar ProgressBar;
-        private Bunifu.Framework.UI.BunifuFlatButton UpdateButton;
         private Bunifu.Framework.UI.BunifuFlatButton VoteButton;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label TitleGameLabel;
-        private System.Windows.Forms.Panel FooterPanelServer;
         private Bunifu.Framework.UI.BunifuFlatButton UninstallButton;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Panel FooterPanel2;
+        private System.Windows.Forms.Panel FooterPanel;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel FooterPanel3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label RegelementTitle;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -2157,6 +2439,27 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.PictureBox pictureBox7;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
+        private System.Windows.Forms.ProgressBar progressBar;
+        private Bunifu.Framework.UI.BunifuFlatButton UpdateButton;
+        private System.Windows.Forms.Label lblStatus;
+        private Bunifu.Framework.UI.BunifuFlatButton PlayButton;
+        private Bunifu.Framework.UI.BunifuFlatButton FinalButon;
+        private Bunifu.Framework.UI.BunifuFlatButton SettingsButton;
+        private Bunifu.Framework.UI.BunifuFlatButton FinishButton;
+        private System.Windows.Forms.Button FolderBrowseFiveMButton;
+        private System.Windows.Forms.Button FolderBrowseGTAVButton;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
+        private System.Windows.Forms.TextBox FolderFiveMTextBox;
+        private Bunifu.Framework.UI.BunifuCustomLabel Link1Label;
+        private System.Windows.Forms.TextBox FolderGTAVTextBox;
+        private Bunifu.Framework.UI.BunifuCustomLabel SettingsTitleLabel;
+        private System.Windows.Forms.FolderBrowserDialog FolderBrowserDialog;
+        private Bunifu.Framework.UI.BunifuFlatButton DonationButton;
+        private System.Windows.Forms.Panel DonnationPanel;
+        private Bunifu.Framework.UI.BunifuFlatButton DonnationFinishButton;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private Bunifu.Framework.UI.BunifuCustomLabel DonnationTitleLabel;
+        private Bunifu.Framework.UI.BunifuCustomLabel InformationTitleLabel;
     }
 }
 

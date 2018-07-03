@@ -1,0 +1,14 @@
+C:\Users\alexi\source\repos\Launcher\Launcher\bin\Release\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\alexi\source\repos\Launcher\Launcher\bin\Release\Bunifu_UI_v1.5.3.dll
+C:\Users\alexi\source\repos\Launcher\Launcher\bin\Release\Bunifu.Core.dll
+C:\Users\alexi\source\repos\Launcher\Launcher\obj\Release\Launcher.Form.resources
+C:\Users\alexi\source\repos\Launcher\Launcher\obj\Release\Launcher.Properties.Resources.resources
+C:\Users\alexi\source\repos\Launcher\Launcher\obj\Release\Launcher.csproj.GenerateResource.cache
+C:\Users\alexi\source\repos\Launcher\Launcher\obj\Release\Launcher.csproj.CoreCompileInputs.cache
+C:\Users\alexi\source\repos\Launcher\Launcher\obj\Release\Launcher.csproj.CopyComplete
+C:\Users\alexi\source\repos\Launcher\Launcher\bin\Release\Launcher.exe.config
+C:\Users\alexi\source\repos\Launcher\Launcher\bin\Release\Launcher.exe
+C:\Users\alexi\source\repos\Launcher\Launcher\bin\Release\Launcher.pdb
+C:\Users\alexi\source\repos\Launcher\Launcher\obj\Release\Launcher.exe
+C:\Users\alexi\source\repos\Launcher\Launcher\obj\Release\Launcher.pdb
+C:\Users\alexi\source\repos\Launcher\Launcher\obj\Release\Launcher.csprojAssemblyReference.cache

@@ -488,7 +488,7 @@ namespace Launcher
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            string url = ("https://alexisaubineau.000webhostapp.com/dlc.rpf");
+            string url = ("Lien dl de votre dlc perso");
             if (!string.IsNullOrEmpty(url))
             {
                 UpdateButton.Visible = false;
